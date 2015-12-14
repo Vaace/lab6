@@ -10,4 +10,4 @@ with open('input.txt', 'r') as inp:
                 # print(n, j)
                 if vvod[j] < minimums[j] or minimums[j] == -1:
                     minimums[j] = vvod[j]
-        print(' '.join(map(str, minimums)), file=out)
+        print(' '.join(map(str, minimums)), file=out) 
