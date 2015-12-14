@@ -12,3 +12,4 @@ with open('input.txt', 'r') as inp:
             dolgi[doljnik] -= summa
             dolgi[creditor] += summa
         print(' '.join(map(str, dolgi)), file=out)
+ 
