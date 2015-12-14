@@ -17,3 +17,4 @@ with open('input.txt', 'r') as inp:
             print(0, file=out)
         else:
             print(lmin, file=out)
+ 
