@@ -6,4 +6,4 @@ with open('input.txt', 'r') as inp:
         for i in range(N-1):
             if lis[i] == lis[i+1]:
                 print(lis[i], file=out)
-                break
+                break 
