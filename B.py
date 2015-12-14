@@ -13,3 +13,4 @@ with open('input.txt', 'r') as inp:
                     needfives -= havefives
                     havefives = 0
         print(needfives, file=out)
+ 
